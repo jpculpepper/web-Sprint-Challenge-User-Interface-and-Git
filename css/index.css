@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: ;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -27,6 +27,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+*{
+    box-sizing:border-box;
+    border:px solid grey; 
+      max-width:100%;
 }
 body {
 	line-height: 1;
@@ -54,6 +59,37 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+}
+header img{
+    margin-left:20%;
+}
+header nav{
+    display:flex;
+    width:70%;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-right:15%;
+  
+}
+header nav a{
+    color:black;
+    text-decoration:none;
+}
+.topimage{
+    align-content: center;
+}
+.topimage img{
+    display:flex;
+    padding-left:22%;
+    justify-content:center;
+    padding-top:1%;
+    padding-bottom:2%;
+    width:82%;
+    padding-right:3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -101,7 +137,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,7 +147,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
